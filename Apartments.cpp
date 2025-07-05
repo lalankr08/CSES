@@ -19,7 +19,8 @@ int main() {
     //sort
     sort(desired.begin(), desired.end());
     sort(available.begin(), available.end());
-    //solve
+
+ 
     ll sum = 0;
     int j=0;
     for (int i=0; i<n; i++) {
